@@ -1,0 +1,17 @@
+body {
+	background: url('../img/background.png');
+}
+
+.toplayer {
+	background-image: url('../img/header_back.png');
+	background-repeat: no-repeat;
+}
+
+.text_top {
+	font-family: OpenSansSemiBold;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+

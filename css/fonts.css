@@ -3,4 +3,8 @@
 	src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype")
 }
 
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
 

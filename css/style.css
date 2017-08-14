@@ -14,4 +14,23 @@ body {
 	font-weight: bold;
 }
 
+.city {
+	text-align: right;
+	float: right;
+}
 
+.phone {
+	font-family: "OpenSans";
+	font-size: 22px;
+	color: white;
+}
+
+.helper_phone {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.img_phone {
+	vertical-align: middle;
+}

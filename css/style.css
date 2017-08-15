@@ -110,4 +110,78 @@ A.cart_ins:focus {
 	color: rgb(202, 152, 51);
 }
 
+.head_text {
+  font-size: 48px;
+  font-family: "Oranienbaum";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.25;
+  text-align: center;
+}
 
+.head_items {
+  font-size: 36px;
+  font-family: "Oranienbaum";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: left;
+}
+
+.main_text {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.main_items {
+	width: 100%
+}
+
+
+.main:hover {
+	color: black;
+	background: white;
+}
+
+.centerlayer {
+	background-image: url('../img/center_back.png');
+	background-repeat: no-repeat;
+}
+
+.reasons {
+  font-size: 48px;
+  font-family: "Oranienbaum";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.25;
+  text-align: center;
+ }
+
+.reason {
+  font-size: 24px;
+  font-family: "Oranienbaum";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.reason_small {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.reason_bottom {
+  font-size: 36px;
+  font-family: "Oranienbaum";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.667;
+  text-align: center;
+}

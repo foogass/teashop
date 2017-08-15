@@ -8,16 +8,18 @@ body {
 }
 
 .text_top {
-	font-family: OpenSansSemiBold;
+	font-family: "OpenSansSemiBold";
 	color: white;
 	font-size: 13px;
 	font-weight: bold;
 }
 
 .city {
-	text-align: right;
-	float: right;
+	font-size: 12px;
+	font-family: "OpenSans";
+	color: rgb(238, 238, 238);
 }
+
 
 .phone {
 	font-family: "OpenSans";
@@ -25,12 +27,9 @@ body {
 	color: white;
 }
 
-.helper_phone {
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-}
 
-.img_phone {
+.vcenter {
+	display: inline-block;
+	float: none;
 	vertical-align: middle;
 }

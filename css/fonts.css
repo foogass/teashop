@@ -8,3 +8,7 @@
 	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
+@font-face {
+	font-family: "Oranienbaum";
+	src: url("../fonts/Oranienbaum-Regular.ttf") format("truetype");
+}

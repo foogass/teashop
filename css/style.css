@@ -20,6 +20,14 @@ body {
 	color: rgb(238, 238, 238);
 }
 
+A.city {
+	text-decoration: none;
+	border-bottom: 1px dashed white;
+}
+
+A.city:hover {
+	color: white;
+}
 
 .phone {
 	font-family: "OpenSans";
@@ -33,3 +41,73 @@ body {
 	float: none;
 	vertical-align: middle;
 }
+
+.lk {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(238, 238, 238);
+}
+
+.navbar.navbar-custom {
+  font-size: 22px;
+  font-family: "Oranienbaum";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.navbar-nav {
+	display: table;
+	width: 100%
+}
+
+.navbar-nav > li {
+	float: none!important;
+	display: table-cell;
+}
+
+.navbar.navbar-custom .navbar-nav > li > a {
+	color: white;
+	text-align: center;
+
+}
+
+.navbar.navbar-custom .navbar-nav > li > a:hover {
+	color: rgb(202, 152, 51);
+	background: none;
+}
+
+.navbar.navbar-custom .navbar-nav > .active,
+.navbar.navbar-custom .navbar-nav > .active > a,
+.navbar.navbar-custom .navbar-nav > .active > a:hover,
+.navbar.navbar-custom .navbar-nav > .active > a:focus {
+	color: rgb(202, 152, 51);
+	background: none;
+}
+
+.cart {
+	position: relative;
+}
+
+.cart_ins {
+	position: absolute;
+	top: 83px;
+	left: 38px;
+	width: 100%;
+	font-size: 18px;
+	font-family: "Oranienbaum";
+	color: white;
+	text-transform: uppercase;
+	line-height: 1;
+}
+
+A.cart_ins {
+	color: white;
+}
+
+A.cart_ins:hover,
+A.cart_ins:focus {
+	color: rgb(202, 152, 51);
+}
+
+

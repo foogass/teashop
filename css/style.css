@@ -185,3 +185,118 @@ A.cart_ins:focus {
   line-height: 1.667;
   text-align: center;
 }
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+
+.review {
+	background: white;
+}
+
+.anchor {
+	position: relative;
+}
+
+.social_icon {
+	position: absolute;
+	top: 45px;
+	left: 65px;
+}
+
+.review_username {
+  font-size: 16px;
+  font-family: "OpenSansSemiBold";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.review_date {
+	font-size: 12px;
+	font-family: "OpenSansSemiBold"
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.review_text {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: justifyLeft;
+}
+
+.carousel-indicators {
+	position: absolute;
+	top: 105%;
+}
+
+.carousel-indicators li {
+	display: inline-block;
+	background-color: #009999;
+}
+
+.carousel-indicators .active {
+	cursor: pointer;
+	border: 1px #009999;
+	background-color: #009999;
+}
+
+.bottomlayer {
+	background-image: url("../img/bottom_back.png");
+}
+
+.form_rounded {
+	position: absolute;
+	top: 40px;
+	left: 100px;
+	border-radius: 25px;
+	width: 300px !important;
+}
+
+.btn-subscribe {
+	position: absolute;
+	top: 40px;
+	left: 430px;
+	background-color: #006666;
+	color: #006666;
+	border-radius: 25px;
+	width: 100px !important;
+}
+
+.notice_subscribe {
+  position: absolute;
+  left: 42px;
+  top: 15px;
+}
+
+.map {
+	background-image: url(../img/map_back.png);
+}
+
+.footerlayer {
+	background-image: url(../img/footer_back.png);
+}
+
+.btn-footer {
+	background: none;
+	border: 1px solid rgb(238, 238, 238);
+	border-radius: 25px;
+}
+
+.sent_footer {
+  font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(238, 238, 238);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: center;
+ 
+}

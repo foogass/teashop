@@ -451,3 +451,79 @@ a.fl:hover {
 	top: -10px;
 	left: -50px;
 }
+
+.page_head {
+  font-size: 48px;
+  font-family: "Oranienbaum";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.path {
+	font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+}
+
+.search-query {
+	margin-bottom: 0;
+	border-radius: 25px !important;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+        /** belows styles are working good */
+        position: relative;
+        left: -40px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 25px;
+        color:#138681;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+.post {
+
+}
+
+.post_bottom {
+	display: block;
+	vertical-align: bottom;
+}
+
+hr.post_hr {
+	border-top: 2px solid rgb(149, 149, 149);
+}
+
+.post_calendar {
+	position: absolute;
+	top: 1px;
+	left: -8px;
+}
+
+.post_date {
+	font-size: 14px;
+	font-family: "OpenSans"
+	color: black;
+}
+
+.read_more {
+	font-size: 12px;
+  font-family: "OpenSans";
+  color: rgb(119, 119, 119);
+}
+
+.str {
+	position: absolute;
+	top: 6px;
+	right: 0px;
+}

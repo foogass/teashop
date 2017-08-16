@@ -7,6 +7,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+.logo {
+	position: absolute;
+	z-index: 1;
+}
+
 .text_top {
 	font-family: "OpenSansSemiBold";
 	color: white;
@@ -74,6 +79,10 @@ a.lk:hover {
 	position: absolute;
 }
 
+.navbar {
+	min-height: 0px !important;
+	height: 0px !important;
+}
 
 .navbar.navbar-custom {
   font-size: 22px;
@@ -96,10 +105,10 @@ a.lk:hover {
 .navbar.navbar-custom .navbar-nav > li > a {
 	color: white;
 	text-align: center;
-
 }
 
-.navbar.navbar-custom .navbar-nav > li > a:hover {
+.navbar.navbar-custom .navbar-nav > li > a:hover,
+.navbar.navbar-custom .navbar-nav > li > a:focus, {
 	color: rgb(202, 152, 51);
 	background: none;
 }
@@ -153,6 +162,43 @@ A.cart_ins:hover,
 A.cart_ins:focus {
 	color: rgb(202, 152, 51);
 }
+
+.banner_head {
+  font-size: 48px;
+  font-family: "Oranienbaum";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.25;
+  text-align: left;
+  display: block;
+}
+
+.banner_text {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: left;
+  display: block;
+}
+
+.btn-banner {
+	color: #edac1a;
+	background-color: #edac1a;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.571;
+  	border-radius: 25px;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
 
 .head_text {
   font-size: 48px;
@@ -276,7 +322,7 @@ A.cart_ins:focus {
   text-align: justifyLeft;
 }
 
-.carousel-indicators {
+.carousel-indicators-down {
 	position: absolute;
 	top: 105%;
 }

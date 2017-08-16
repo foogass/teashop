@@ -99,7 +99,6 @@ a.lk:hover {
 .navbar.navbar-custom {
   font-size: 22px;
   font-family: "Oranienbaum";
-  color: white;
   text-transform: uppercase;
   line-height: 1;
 }
@@ -110,7 +109,7 @@ a.lk:hover {
 }
 
 .navbar-nav > li {
-	float: none!important;
+	float: none !important;
 	display: table-cell;
 }
 
@@ -120,7 +119,7 @@ a.lk:hover {
 }
 
 .navbar.navbar-custom .navbar-nav > li > a:hover,
-.navbar.navbar-custom .navbar-nav > li > a:focus, {
+.navbar.navbar-custom .navbar-nav > li > a:focus {
 	color: rgb(202, 152, 51);
 	background: none;
 }

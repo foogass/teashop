@@ -164,13 +164,12 @@ A.cart_ins:focus {
 }
 
 .banner_head {
-  font-size: 48px;
+  font-size: 350%;
   font-family: "Oranienbaum";
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   line-height: 1.25;
   text-align: left;
-  display: block;
 }
 
 .banner_text {
@@ -433,4 +432,11 @@ a.fl:hover {
   color: rgb(238, 238, 238);
   line-height: 4.286;
   text-align: center;
+}
+
+.rabbit {
+	position: absolute;
+	z-index: 1;
+	top: -10px;
+	left: -50px;
 }

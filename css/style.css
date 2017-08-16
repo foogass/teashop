@@ -1,3 +1,15 @@
+@media all and (max-width: 1200px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	body {
+		font-size: 12px;
+	}
+}
+
 body {
 	background: url('../img/background.png');
 }
@@ -164,7 +176,6 @@ A.cart_ins:focus {
 }
 
 .banner_head {
-  font-size: 350%;
   font-family: "Oranienbaum";
   color: rgb(0, 0, 0);
   text-transform: uppercase;
@@ -176,7 +187,7 @@ A.cart_ins:focus {
   font-size: 16px;
   font-family: "OpenSans";
   color: rgb(0, 0, 0);
-  line-height: 1.5;
+  line-height: 1;
   text-align: left;
   display: block;
 }
@@ -184,13 +195,14 @@ A.cart_ins:focus {
 .btn-banner {
 	color: #edac1a;
 	background-color: #edac1a;
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Open Sans";
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.571;
   	border-radius: 25px;
+  	width: 250px !important;
 }
 
 .carousel-caption {

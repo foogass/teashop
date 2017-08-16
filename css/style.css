@@ -363,3 +363,28 @@ A.cart_ins:focus {
 	top: 8px;
 	left: 15px;
 }
+
+
+.footer_text {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(238, 238, 238);
+}
+
+a.fl {
+	text-decoration: none;
+	color: rgb(238, 238, 238);
+}
+
+a.fl:hover {
+	color: rgb(202, 152, 51);
+}
+
+
+.cred {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(238, 238, 238);
+  line-height: 4.286;
+  text-align: center;
+}

@@ -55,9 +55,13 @@
 												</div>
 											</div>
 											<div class="row">
-												<div class="col-xs-12 center-block" >
-													<img class="img_phone" src="img/phone.png">
-													<span class="phone">8 495 960-74-50</span>
+												<div class="col-xs-12" >
+													<div class="row">
+														<div class="col-sm-12 col-sm-offset-1">
+															<img class="img_phone" src="img/phone.png">
+															<span class="phone">8 495 960-74-50</span>
+														</div>
+													</div>
 												</div>
 											</div>
 									</div>
@@ -70,21 +74,34 @@
 										</div>
 										<div class="row">
 											<div class="col-xs-12">
-												<img class="img_phone" src="img/phone.png">
-												<span class="phone">8 800 301-76-78</span>
+												<div class="row">
+													<div class="col-sm-12 col-sm-offset-1">
+														<img class="img_phone" src="img/phone.png">
+														<span class="phone">8 800 301-76-78</span>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-xs-4">
-										<div class="lk">
-											<br>
-											<img src="img/lk.png">
-											<span>  Личный кабинет</span>
+										<div class="row">
+											<div class="col-sm-12 col-sm-offset-1">
+												<br>
+												<a href="#" class="lk">
+													<img src="img/lk.png" class="lk_pic">
+													<span class="">Личный кабинет</span>
+												</a>
+											</div>
 										</div>
-										<div class="lk">
-											<img src="img/delivery.png">
-											<span>  Условия доставки</span>
+										<div class="row">
+											<div class="col-sm-12 col-sm-offset-1">
+												<a href="#" class="lk">
+													<img src="img/delivery.png" class="dl_pic">
+													<span class="">Условия доставки</span>
+												</a>
+											</div>
 										</div>
+										
 									</div>
 								</div>
 
@@ -106,6 +123,8 @@
 								<br>
 								<a href="/"><img src="img/cart.png"></a>
 								<a href="/"><span class="cart_ins">КОРЗИНА</span></a>
+								<img src="img/quantity.png" class="quantity_pic"> <!-- фон для количества товаров в корзине -->
+								<span class="quantity">14</span> <!-- количество товаров в корзине -->
 							</div>
 						</div>
 					</div>
@@ -608,7 +627,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- скрипт яндекс-карты. Делается в констуркторе карт -->
+		<!-- ссылка на мою карту. Поменяйте -->
 		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7958216391a52900fd284c1fad13d90c20f1de6e475804b39c3ea4c974045c18&amp;width=100%25&amp;height=532&amp;lang=ru_RU&amp;scroll=true"></script>
 	</div>
 	<!-- maps end -->
@@ -622,12 +641,73 @@
 					<div class="row">
 						<img src="img/logo.png">
 					</div>
+					<br>
 					<div class="row">
 						<button type="submit" class="btn btn-footer btn-block"><span class="sent_footer">ОТПРАВИТЬ СООБЩЕНИЕ</span></button>
 					</div>
+					<br>
+					<div class="row">
+						<img src="img/visa.png" class="img-responsive">
+					</div>
+				</div>
+				<div class="col-sm-1">
 					
 				</div>
-				
+				<div class="col-sm-9">
+					<div class="row">
+						<div class="col-xs-4">
+							<br>
+							<div class="row">
+								<div class="col-xs-5 col-xs-offset-1">
+									<div class="dropdown">
+										<a href="#" data-toggle="dropdown" class="dropdown-toggle city">
+											Москва
+											<b class="caret"></b>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12" >
+									<div class="row">
+										<div class="col-sm-12 col-sm-offset-1">
+											<img class="img_phone" src="img/phone.png">
+											<span class="phone">8 495 960-74-50</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<br>
+							<div class="row">
+								<div class="col-xs-5 col-xs-offset-1">
+									<span class="city">По России</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="row">
+										<div class="col-sm-12 col-sm-offset-1">
+											<img class="img_phone" src="img/phone.png">
+											<span class="phone">8 800 301-76-78</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<br>
+							<br>
+							<div class="row">
+								<div class="col-sm-12">
+									<img src="img/time.png" class="time_pic">
+									<span class="time_text">Пн-Сб <b>10:00 - 20:00</b></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -20,6 +20,12 @@ body {
 	color: rgb(238, 238, 238);
 }
 
+.img_phone {
+	position: absolute;
+	top: 10px;
+	left: -5px;
+}
+
 A.city {
 	text-decoration: none;
 	border-bottom: 1px dashed white;
@@ -35,18 +41,39 @@ A.city:hover {
 	color: white;
 }
 
-
-.vcenter {
-	display: inline-block;
-	float: none;
-	vertical-align: middle;
-}
-
 .lk {
   font-size: 14px;
   font-family: "OpenSans";
   color: rgb(238, 238, 238);
 }
+
+a.lk {
+	font-size: 14px;
+	font-family: "OpenSans";
+	color: rgb(238, 238, 238);
+	text-decoration: none;
+}
+
+a.lk:hover {
+	color: rgb(202, 152, 51);
+}
+
+.lk_pic {
+	position: absolute;
+	top: 24px;
+	left: -5px;
+}
+
+.dl_pic {
+	position: absolute;
+	top: 5px;
+	left: -10px;
+}
+
+.lk_text {
+	position: absolute;
+}
+
 
 .navbar.navbar-custom {
   font-size: 22px;
@@ -89,6 +116,23 @@ A.city:hover {
 	position: relative;
 }
 
+.quantity {
+  font-size: 10px;
+  font-family: "Open Sans";
+  color: rgb(238, 238, 238);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.2;
+  position: absolute;
+  top: 80px;
+  left: 113px;
+}
+
+.quantity_pic {
+  position: absolute;
+  top: 84px;
+  left: 109px;
+}
 .cart_ins {
 	position: absolute;
 	top: 83px;
@@ -299,4 +343,23 @@ A.cart_ins:focus {
   line-height: 2.5;
   text-align: center;
  
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+.time_text {
+	position: absolute;
+	top: 3px;
+	left: 40px;
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb(238, 238, 238);
+}
+
+.time_pic {
+	position: absolute;
+	top: 8px;
+	left: 15px;
 }
